@@ -1,0 +1,4 @@
+* @killerlux
+.github/workflows/* @killerlux
+src/parser.py @killerlux
+src/notifiers.py @killerlux
