@@ -24,14 +24,24 @@ def channels_from_env(env: dict[str, str]) -> list[str]:
 
 def build_notification_text(program: dict[str, Any], detected_at: str) -> str:
     """Build notification text payload for a single new program."""
+    source = str(program.get("source") or "yeswehack").lower()
+    if source == "hackerone":
+        title = "New HackerOne public bug bounty detected"
+    elif source == "yeswehack":
+        title = "New YesWeHack public program detected"
+    else:
+        title = "New bug bounty program detected"
+
     lines = [
-        "New YesWeHack public program detected",
+        title,
+        f"Source: {source}",
         f"Program: {program.get('name', 'Unknown')}",
         f"Company: {program.get('company') or 'Unknown'}",
         f"Category: {program.get('category') or 'Unknown'}",
         f"Rewards: {program.get('reward_range') or 'N/A'}",
         f"Scope count: {program.get('scope_count') if program.get('scope_count') is not None else 'N/A'}",
         f"URL: {program.get('url')}",
+        f"Launched at: {program.get('launched_at') or 'Unknown'}",
         f"Detected at (UTC): {detected_at}",
     ]
     return "\n".join(lines)

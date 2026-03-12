@@ -1,4 +1,4 @@
-name: Monitor YesWeHack Programs
+name: Monitor Public Programs
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: yeswehack-monitor
+  group: public-program-monitor
   cancel-in-progress: false
 
 jobs:

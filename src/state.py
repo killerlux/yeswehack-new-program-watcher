@@ -86,6 +86,7 @@ def update_state(
         programs_index[program_id] = {
             "name": program.get("name"),
             "url": program.get("url"),
+            "source": program.get("source"),
             "first_seen_at": detected_at,
         }
 
