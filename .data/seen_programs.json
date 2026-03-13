@@ -180,6 +180,11 @@
       "name": "Louis Vuitton Malletier - Public Bug Bounty Program",
       "url": "https://yeswehack.com/programs/louis-vuitton-malletier-public-bug-bounty-program"
     },
+    "ea95467c-8879-4258-9953-80b8fe7c5a6a": {
+      "first_seen_at": "2026-03-13T08:23:15Z",
+      "name": "DINUM - ProConnect Identit\u00e9 - Public Bug Bounty Program",
+      "url": "https://yeswehack.com/programs/proconnect-identite"
+    },
     "ee15c7a7-cd0a-4a9c-a8f0-184b77b65df2": {
       "first_seen_at": "2026-03-10T12:48:42Z",
       "name": "Memento - Public Bug Bounty Program",
@@ -253,6 +258,7 @@
     "1579e269-2b1f-440b-988b-5f5100c717f7",
     "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
     "0ef5acf2-330c-4b95-b8ec-5fdc87d83868",
-    "9b812e13-d351-4a48-a338-d0c2b2a1f4aa"
+    "9b812e13-d351-4a48-a338-d0c2b2a1f4aa",
+    "ea95467c-8879-4258-9953-80b8fe7c5a6a"
   ]
 }
