@@ -125,6 +125,11 @@
       "name": "Swapcard",
       "url": "https://yeswehack.com/programs/swapcard"
     },
+    "943cdff0-63ec-4819-81c8-603666f5288f": {
+      "first_seen_at": "2026-03-17T04:15:56Z",
+      "name": "KOMOJU - Public Bug Bounty Program",
+      "url": "https://yeswehack.com/programs/komoju-public-bug-bounty-program"
+    },
     "9b812e13-d351-4a48-a338-d0c2b2a1f4aa": {
       "first_seen_at": "2026-03-10T12:48:42Z",
       "name": "Okto - Bug Bounty Program",
@@ -271,6 +276,7 @@
     "9b812e13-d351-4a48-a338-d0c2b2a1f4aa",
     "ea95467c-8879-4258-9953-80b8fe7c5a6a",
     "893e330d-95e9-48d1-bb81-0ad52b2d2cdc",
-    "e8c7820f-2474-4856-89ad-313b6789fc09"
+    "e8c7820f-2474-4856-89ad-313b6789fc09",
+    "943cdff0-63ec-4819-81c8-603666f5288f"
   ]
 }
